@@ -2,13 +2,18 @@
   "name": "dashboard",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nick mackenzie",
   "license": "ISC",
   "dependencies": {
+    "daisyui": "^2.2.2",
     "parcel": "^2.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
   }
 }
